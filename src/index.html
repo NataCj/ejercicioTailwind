@@ -5,26 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="stylesheet" href="input.css">
-    <title>Box Model Float</title>
+    <title>Tarjeta De Presentación</title>
 
 </head>
 
-<body>
-    <div class="grid grid-cols-4 mx-auto bg-purple-400  max-w-3xl container">
-        <header class="col-span-4 p-2 h-10 bg-purple-500">
-            This is my header
-        </header>
-        
-        <nav class="h-32 bg-blue-400">
-            menu
-        </nav>
-        <article class="col-span-3 bg-pink-600">
-            selection content
-        </article>
+<body class=" flex items-center justify-center h-screen bg-slate-300">
+    <div class="p-2 shadow-lg rounded w-[360px] bg-white" >
+        <div class=" text-right">
+            <svg class="h-4 inline" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
+            </svg>       
+            
+            <div class="relative mx-auto w-20">
+                <img class="h-20 w-20 rounded-full" src="https://shiftart.com/wp-content/uploads/2017/04/RC-Profile-Square.jpg" alt="">
+                <div class="bottom-2 right-1 absolute flex justify-center items-center w-4 h-4 rounded-full bg-green-500">
+                    <svg class=" text-white w-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                      </svg>
+                      
+                </div>
+            </div>
 
-        <footer class="col-span-4 bg-purple-700">
-                footer
-        </footer>
+        </div>
+
+        <div class="">
+            <h1 class="text-slate-700 mt-3 text-center">Natalia Cardenas</h1>
+            <h3 class="text-slate-400 text-[10px] text-center">UX/UI designer </h3>
+
+            <div class="mt-8 flex columns-3">
+                <div class="w-1/3 text-center">
+                    <h6 class="text-[8px] uppercase text-slate-400 ">
+                        Projects
+                    </h6>
+                    <h2>
+                        11
+                    </h2>
+                </div>
+                <div class="w-1/3 text-center">
+                    <h6 class="text-[8px] uppercase text-slate-400 ">
+                        Following
+                    </h6>
+                    <h2>
+                        11
+                    </h2>
+                </div>
+                <div class="w-1/3 text-center">
+                    <h6 class="text-[8px] uppercase text-slate-400 ">
+                        Followers
+                    </h6>
+                    <h2>
+                        11
+                    </h2>
+                </div>
+            </div>
+
+            <div class=" text-slate-400 text-xs mt-8 text-center" >
+                <h6 class="m-auto w-[90%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum consequatur quis pariatur</h6>
+            </div>
+
+        </div>
+        <div>
+
+        </div>
+
+        
+
     </div>
 
 </body>
